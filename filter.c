@@ -40,6 +40,7 @@ void applyFilterSimple(IMAGE *image, int selection, int debug){
 
 	min = 0; max = 0;
 
+	// these are the filters
 	int filterOne[3][3] = { {0, 1, 0}, {1, 1, 1}, {0, 1, 0} };
 	int filterTwo[3][3] = { {1, 0, 0}, {0, 1, 0}, {0, 0, 1} };
 	int filterThree[3][3] = { {0, -1, 0}, {-1, 5, -1}, {0, -1, 0} };
