@@ -118,6 +118,8 @@ BOOL bmp_open(char* file, IMAGE* image) {
 	printf("BfReserved2: %d\n", bmfh.BfReserved2);
 	printf("BfOffBits: %d\n", bmfh.BfOffBits);
 
+
+
 	for(i = 0; i < 3; i++) { printf("\n"); }
 
 	printf("----- Info Header ----- \n");
